@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="game-display bordered">
+            <div class="hanging-pole">
+
+            </div>
+            <table class="word-table">
+                <tbody>
+                    <tr class="word">
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="interactions bordered">
+            <!-- Text box to submit word of choice -->
+            <form class="text-input">
+                <label for="word">
+                    Word:
+                    <input type="text" name="word-chosen">
+                    <input type="submit" value="Submit" class="submit-button">
+                </label>
+            </form>
+            <!-- New Game Button -->
+            <!-- Clickable alphabet keyboard -->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
